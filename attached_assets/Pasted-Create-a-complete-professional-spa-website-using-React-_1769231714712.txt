@@ -1,0 +1,141 @@
+Create a complete, professional spa website using React + Vite + Tailwind CSS.
+The website is for a spa business located in Mahipalpur, New Delhi.
+
+TECH STACK:
+- React (with Vite)
+- Tailwind CSS
+- React Router DOM for routing
+- Fully responsive (desktop + mobile)
+- Hamburger menu for mobile and desktop
+- Clean industry-standard folder structure
+
+PROJECT STRUCTURE:
+src/
+ ├─ components/
+ │   ├─ Navbar.jsx
+ │   ├─ Footer.jsx
+ │   ├─ MobileMenu.jsx
+ │   └─ Layout.jsx
+ ├─ pages/
+ │   ├─ Home.jsx
+ │   ├─ About.jsx
+ │   ├─ Services.jsx
+ │   ├─ Prices.jsx
+ │   ├─ Gallery.jsx
+ │   ├─ Blog.jsx
+ │   └─ Contact.jsx
+ ├─ App.jsx
+ ├─ main.jsx
+ └─ index.css
+
+ROUTING:
+Use React Router with these routes (each page must be different and realistic):
+- /
+- /about
+- /services
+- /prices
+- /gallery
+- /blog
+- /contact
+
+NAVBAR REQUIREMENTS:
+- Sticky top navbar
+- Left side: Mobile number displayed clearly
+  +91 98189 31148
+- Right side: Hamburger menu icon
+- Navigation menu items:
+  Home
+  About Us
+  Services
+  Prices
+  Gallery
+  Blog
+  Contact Us
+- Hamburger opens a full-screen or slide menu on mobile
+- Smooth transitions
+- Active link styling
+
+HOME PAGE CONTENT:
+Hero section with spa background feel and text like:
+"Russian Spa Centre – Authentic Russian Banya Experience in New Delhi"
+
+Sections:
+- About preview
+- Popular services
+- Why choose us
+- Call to action (Book Appointment)
+
+FOOTER (ONLY ON HOME PAGE, DETAILED):
+Title:
+Russian Spa Centre  
+Experience authentic Russian Banya traditions in the heart of New Delhi
+
+Contact Us:
+Office No - 118, Defence Enclave,  
+Adjoining Aerocity, Mahipalpur,  
+New Delhi, Delhi 110037  
+
+Phone: +91 98189 31148  
+Email: info@russianspacentre.com  
+
+Opening Hours:
+Open 24 Hours  
+Monday - Sunday  
+
+Map Section:
+Text link: "View larger map"
+
+Popular Spa Locations in Delhi:
+Spa in Aerocity, Delhi - Spa in Mahipalpur, Delhi - Body Massage in Dwarka, Delhi
+
+Our Keywords Section:
+Russian Spa Centre, Authentic Russian Banya, Body Massage, Full Body Massage, Spa Services,
+Deep Tissue Massage, Swedish Massage, Aromatherapy Massage, Hot Stone Massage,
+Aroma Oil Massage, Balinese Massage, Thai Massage, Relaxation Therapy,
+Beauty Treatments, Wellness Services, Couples Package, Professional Therapists,
+Mahipalpur, Aerocity, Dwarka, Delhi NCR
+
+Book Your Appointment Section:
+"Call us at +91 98189 31148 or fill out our online form to reserve your spot."
+"Open daily 24 hours, offering couples packages and flexible appointments."
+
+Footer Bottom:
+© 2026 Russian Spa Centre. All rights reserved.
+
+Footer Links:
+About | Services | Prices | Contact | Blog
+
+SEO Text Section:
+Russian Body | Massage Centres | Beauty Spas For Men | Russian Body Massage Centres |
+24 Hours Beauty Spas | Massage Centres For Men | Beauty Spas |
+Russian spa in Mahipalpur | Russian spa in Aerocity
+
+Serving Areas:
+Mahipalpur, Aerocity, Defence Colony, South Delhi
+
+Pincodes:
+110001, 110011, 110089, 110075, 110070, 110005, 110049, 110048,
+122001, 122002, 201014, 201002, 201301, 121001, 110037, 110097,
+110067, 110057
+
+DESIGN STYLE:
+- Luxury spa theme
+- Soft colors (beige, brown, gold, dark gray)
+- Modern typography
+- Smooth hover effects
+- Realistic spa content (write original text, not placeholder lorem ipsum)
+
+OTHER PAGES:
+Each page must have:
+- Page title
+- Hero banner
+- Unique realistic content related to spa industry
+
+Ensure:
+- No broken routes
+- Clean Tailwind classes
+- Proper responsiveness
+- Hamburger menu works on desktop & mobile
+- Professional spa website look
+
+Generate complete working code.
