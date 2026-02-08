@@ -77,7 +77,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-display text-xl font-bold text-stone-900 mb-1">Phone</h3>
-                    <p className="text-stone-600">+91 98189 31148</p>
+                    <p className="text-stone-600">+91 9525293190</p>
                   </div>
                 </div>
 
@@ -149,7 +149,7 @@ export default function Contact() {
                         <FormItem>
                           <FormLabel>Phone Number</FormLabel>
                           <FormControl>
-                            <Input placeholder="+91 98189 31148" {...field} className="bg-stone-50 border-stone-200" />
+                            <Input placeholder="+91 9525293190" {...field} className="bg-stone-50 border-stone-200" />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -198,7 +198,7 @@ export default function Contact() {
           style={{ border: 0 }} 
           allowFullScreen 
           loading="lazy"
-          title="Russian Spa Centre Location"
+          title="Escort Service Centre Location"
           className="grayscale opacity-80 hover:opacity-100 transition-opacity duration-500"
         ></iframe>
       </section>

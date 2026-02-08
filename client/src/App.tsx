@@ -72,7 +72,8 @@ function Router() {
       <Route path="/blog" component={Blog} />
       <Route path="/contact" component={Contact} />
       <Route path="/loc" component={LocationPage} />
-      <Route component={NotFound} />
+      {/* <Route component={NotFound} /> */}
+       <Route component={Home} />
     </Switch>
   );
 }

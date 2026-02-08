@@ -23,7 +23,7 @@ export default function About() {
               <h2 className="font-display text-4xl text-stone-900 text-center mb-12">Our Story</h2>
               
               <p className="text-stone-600 text-lg leading-relaxed mb-8">
-                Welcome to Russian Spa Centre, the premier destination for authentic wellness experiences in New Delhi. 
+                Welcome to Escort Service Centre, the premier destination for authentic wellness experiences in New Delhi. 
                 Founded with a vision to bring the time-honored traditions of the Russian Banya to India, we have 
                 created a unique space where culture, luxury, and relaxation converge.
               </p>
