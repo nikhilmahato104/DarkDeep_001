@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<!-- Main Pages - Priority 1.0 (Most Important) -->
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.0</priority>
+</url>
+
+<!-- Core Pages - Priority 0.9 -->
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/about</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/services</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/prices</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<!-- Location Pages - Priority 0.8 (One for each location) -->
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/mahipalpur-spa-center</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/dwarka-spa-center</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/aerocity-spa-center</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/saket-spa-center</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/rohini-spa-center</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/janakpuri-spa-center</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/uttam-nagar-spa-center</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/rajouri-garden-spa-center</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/karol-bagh-spa-center</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/lajpat-nagar-spa-center</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/greater-kailash-spa-center</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/vasant-kunj-spa-center</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/delhi-spa-service</loc>
+  <lastmod>2026-03-10</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.2</priority>
+</url>
+
+<!-- Continue for ALL 70+ locations -->
+<!-- Add each location from your array -->
+
+<!-- Gallery & Media Pages - Priority 0.7 -->
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/gallery</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/blog</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+
+<!-- Contact & Info Pages - Priority 0.7 -->
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/contact</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/locations</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+
+<!-- Legal Pages - Priority 0.5 -->
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/privacy-policy</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+
+<url>
+  <loc>https://mahipalpurspaservicecentre.com/terms-of-service</loc>
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+
+</urlset>

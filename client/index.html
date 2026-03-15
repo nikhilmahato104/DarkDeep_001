@@ -2,15 +2,196 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" /> -->
-     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Code:wght@300..700&family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Oxanium:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <!-- ✅ CORRECTED Mobile viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+   <link rel="icon" type="image/png" href="/favicon2.png" />
+  
+    
+    <!-- ✅ PREFETCH for critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300..900&family=Poppins:wght@300..900&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300..900&family=Poppins:wght@300..900&display=swap" media="print" onload="this.media='all'" />
+    
+    <!-- ✅ IMPROVED TITLE (include primary keyword at beginning) -->
+    <title>Spa in Mahipalpur | Mahipalpur Spa Service Centre - Body Massage & Couple Spa Near IGI Airport</title>
+    
+    <!-- ✅ IMPROVED Meta Description (include CTA, 150-160 chars) -->
+    <meta name="description" content="Best spa in Mahipalpur near IGI Airport. Professional body massage, couple spa therapy, Russian Banya & wellness services. Open 24/7. Book now: +91-9525293190" />
+    
+    <!-- ✅ REMOVED Keywords meta tag (not needed) -->
+    
+    <!-- ✅ Open Graph Tags for Social Sharing -->
+    <meta property="og:title" content="Spa in Mahipalpur | Mahipalpur Spa Service Centre" />
+    <meta property="og:description" content="Professional body massage, couple spa therapy & wellness services near IGI Airport, Delhi. Open 24/7." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mahipalpurspaservicecentre.com/" />
+    <meta property="og:image" content="https://mahipalpurspaservicecentre.com/og-image.jpg" />
+    <meta property="og:site_name" content="Mahipalpur Spa Service Centre" />
+    <meta property="og:locale" content="en_IN" />
+    
+    <!-- ✅ Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Spa in Mahipalpur | Mahipalpur Spa Service Centre" />
+    <meta name="twitter:description" content="Professional spa services near IGI Airport. Body massage, couple spa & wellness treatments." />
+    <meta name="twitter:image" content="https://mahipalpurspaservicecentre.com/twitter-image.jpg" />
+    
+    <!-- ✅ Canonical URL -->
+    <link rel="canonical" href="https://mahipalpurspaservicecentre.com/" />
+    
+    <!-- ✅ ROBOTS (allow indexing) -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    
+    <!-- ✅ Additional Important Meta Tags -->
+    <meta name="author" content="Mahipalpur Spa Service Centre" />
+    <meta name="theme-color" content="#dc2626" />
+    <meta name="format-detection" content="telephone=yes" />
+    
+    <!-- ✅ Structured Data LATER IN BODY - Don't put in head -->
+    
   </head>
+
   <body>
+    <!-- ❌ REMOVED Hidden SEO content completely -->
+    <!-- This was risky and unnecessary with proper on-page SEO -->
+    
+    <!-- React root -->
     <div id="root"></div>
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" as="script" href="/src/main.tsx" />
+    
+    <!-- React entry -->
     <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- ✅ IMPROVED & MOVED Schema to BODY END -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "HealthAndBeautyBusiness",
+          "@id": "https://mahipalpurspaservicecentre.com/#business",
+          "name": "Mahipalpur Spa Service Centre",
+          "image": [
+            "https://mahipalpurspaservicecentre.com/spa-interior-1.jpg",
+            "https://mahipalpurspaservicecentre.com/spa-interior-2.jpg"
+          ],
+          "description": "Professional spa and wellness centre in Mahipalpur offering body massage, couple spa therapy, Russian Banya, and wellness treatments near IGI Airport.",
+          "telephone": "+91-9525293190",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Main Road",
+            "addressLocality": "Mahipalpur",
+            "addressRegion": "Delhi",
+            "postalCode": "110037",
+            "addressCountry": "IN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "28.5450",
+            "longitude": "77.1225"
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+              "opens": "00:00",
+              "closes": "23:59"
+            }
+          ],
+          "priceRange": "₹₹₹",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "156",
+            "bestRating": "5"
+          },
+          "makesOffer": [
+            {
+              "@type": "Offer",
+              "name": "Body Massage",
+              "description": "Professional full body massage therapy",
+              "price": "1800",
+              "priceCurrency": "INR"
+            },
+            {
+              "@type": "Offer",
+              "name": "Couple Spa Package",
+              "description": "Romantic spa experience for couples",
+              "price": "4500",
+              "priceCurrency": "INR"
+            }
+          ],
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Mahipalpur"
+            },
+            {
+              "@type": "City",
+              "name": "Aerocity"
+            },
+            {
+              "@type": "City",
+              "name": "Dwarka"
+            },
+            {
+              "@type": "City",
+              "name": "Delhi"
+            }
+          ],
+          "sameAs": [
+            "https://www.facebook.com/yourpage",
+            "https://www.instagram.com/yourpage",
+            "https://twitter.com/yourpage"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://mahipalpurspaservicecentre.com/#website",
+          "url": "https://mahipalpurspaservicecentre.com/",
+          "name": "Mahipalpur Spa Service Centre",
+          "description": "Professional spa services in Mahipalpur, Delhi",
+          "publisher": {
+            "@id": "https://mahipalpurspaservicecentre.com/#business"
+          },
+          "potentialAction": [{
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://mahipalpurspaservicecentre.com/search?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://mahipalpurspaservicecentre.com/#webpage",
+          "url": "https://mahipalpurspaservicecentre.com/",
+          "inLanguage": "en-IN",
+          "name": "Spa in Mahipalpur | Mahipalpur Spa Service Centre",
+          "description": "Professional body massage, couple spa therapy and wellness services near IGI Airport, Delhi.",
+          "isPartOf": {
+            "@id": "https://mahipalpurspaservicecentre.com/#website"
+          },
+          "about": {
+            "@id": "https://mahipalpurspaservicecentre.com/#business"
+          },
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://mahipalpurspaservicecentre.com/hero-image.jpg"
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <!-- ✅ Fallback for fonts if JavaScript disabled -->
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300..900&family=Poppins:wght@300..900&display=swap" />
+    </noscript>
   </body>
 </html>

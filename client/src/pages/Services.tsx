@@ -3,6 +3,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 
 const services = [
   {
@@ -46,6 +47,14 @@ const services = [
 export default function Services() {
   return (
     <Layout>
+          <Helmet>
+        <title>Spa Services in Mahipalpur | Body Massage, Swedish Massage & Russian Banya</title>
+        <meta
+          name="description"
+          content="Explore professional spa services in Mahipalpur near IGI Airport including Swedish massage, deep tissue massage, aromatherapy and Russian banya therapy."
+        />
+        <link rel="canonical" href="https://mahipalpurspaservicecentre.com/services" />
+      </Helmet>
       <PageHeader 
         title="Our Services" 
         subtitle="Holistic treatments for body and soul"

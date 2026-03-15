@@ -1,10 +1,19 @@
 import { Layout } from "@/components/Layout";
 import { PageHeader } from "@/components/PageHeader";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 
 export default function About() {
   return (
     <Layout>
+        <Helmet>
+        <title>About Mahipalpur Spa Service Centre | Best Spa Near IGI Airport Delhi</title>
+        <meta
+          name="description"
+          content="Learn about Mahipalpur Spa Service Centre, a premium wellness spa offering body massage, couple spa therapy and relaxation services near IGI Airport Delhi."
+        />
+        <link rel="canonical" href="https://mahipalpurspaservicecentre.com/about" />
+      </Helmet>
       <PageHeader 
         title="About Us" 
         subtitle="A sanctuary of peace in the heart of the city"

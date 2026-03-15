@@ -1,6 +1,7 @@
 import { Layout } from "@/components/Layout";
 import { PageHeader } from "@/components/PageHeader";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 
 export default function Gallery() {
   const images = [
@@ -17,6 +18,14 @@ export default function Gallery() {
 
   return (
     <Layout>
+            <Helmet>
+        <title>Spa Gallery in Mahipalpur | Mahipalpur Spa Service Centre Delhi</title>
+        <meta
+          name="description"
+          content="Explore photos of Mahipalpur Spa Service Centre including massage rooms, spa therapy sessions and wellness facilities near IGI Airport Delhi."
+        />
+        <link rel="canonical" href="https://mahipalpurspaservicecentre.com/gallery" />
+      </Helmet>
       <PageHeader 
         title="Gallery" 
         subtitle="A glimpse into our sanctuary"
